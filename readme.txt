@@ -1,8 +1,9 @@
-Thank you for using our template!
+Pending Tasks :
 
-For more awesome templates please visit https://colorlib.com/wp/templates/
-
-Copyright information for the template can't be altered/removed unless you purchase a license.
-More information about the license is available here: https://colorlib.com/wp/licence/
-
-Removing copyright information without the license will result in suspension of your hosting and/or domain name(s).
+1. Edit Wedding photos
+2. Design Album.html page with highlights images
+3. Add Comments for album.html
+4. Build dynamic html page for album.html
+5. Website Building . html
+6. Custom Software Development . html
+7. Update image rediction links for homepage images
