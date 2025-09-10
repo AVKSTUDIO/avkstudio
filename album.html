@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+  <title>Photographer | HTML Template</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Photographer html template">
+  <meta name="keywords" content="photographer, html">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Favicon -->
+  <link href="img/favicon.ico" rel="shortcut icon"/>
+
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="css/font-awesome.min.css"/>
+  <link rel="stylesheet" href="css/magnific-popup.css"/>
+  <link rel="stylesheet" href="css/slicknav.min.css"/>
+  <link rel="stylesheet" href="css/owl.carousel.min.css"/>
+
+  <!-- Main Stylesheets -->
+  <link rel="stylesheet" href="css/style.css"/>
+
+</head>
+<body>
+  <!-- Page Preloder -->
+  <div id="preloder"><div class="loader"></div></div>
+
+  <!-- Header (unchanged) -->
+  <header class="header-section">
+    <a href="index.html" class="site-logo"><img src="img/AVK_LOGO (1).png" alt="logo" style="width:20%;"></a>
+    <div class="header-controls">
+      <button class="nav-switch-btn"><i class="fa fa-bars"></i></button>
+    </div>
+    <ul class="main-menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li>
+        <a href="#">Other Services</a>
+        <ul class="sub-menu">
+          <li><a href="portfolio-1.html">Website Building</a></li>
+          <li><a href="portfolio-2.html">Custom Software Development</a></li>
+        </ul>
+      </li>
+    </ul>
+  </header>
+<!-- ===== DYNAMIC Album Hero (with skeletons) ===== -->
+<section class="about-section">
+	<div class="container-fluid">
+	  <div class="row">
+		<div class="col-lg-6 p-0">
+		  <!-- cover image -->
+		  <div class="about-bg skeleton">
+			<img id="album-cover" 
+				 src="img/placeholder.jpg" 
+				 alt="Cover" 
+				 style="width:100%; height:100%; object-fit:cover; border-radius:6px;"
+				 class="hidden">
+		  </div>
+		</div>
+		<div class="col-lg-6 p-0">
+		  <div class="about-text">
+			<h2 id="album-title" class="skeleton-text">Loading title…</h2>
+			<p id="album-sub" class="album-sub skeleton-text">Loading date & venue…</p>
+			<a id="album-btn" href="#" 
+			   class="site-btn skeleton-btn disabled" 
+			   target="_blank" 
+			   rel="noopener">Loading...</a>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </section>
+  
+  <!-- ===== Highlights (with skeletons) ===== -->
+  <div class="highlights-section">
+	<div class="container-fluid">
+	  <h2 class="section-title text-center">Highlights</h2>
+	  <div class="container">
+		<div class="row" id="highlight-row">
+		  <!-- skeleton placeholders -->
+		  <div class="col-lg-3 col-sm-6">
+			<div class="highlight-item skeleton" style="height:200px; border-radius:6px;"></div>
+		  </div>
+		  <div class="col-lg-3 col-sm-6">
+			<div class="highlight-item skeleton" style="height:200px; border-radius:6px;"></div>
+		  </div>
+		  <div class="col-lg-3 col-sm-6">
+			<div class="highlight-item skeleton" style="height:200px; border-radius:6px;"></div>
+		  </div>
+		  <div class="col-lg-3 col-sm-6">
+			<div class="highlight-item skeleton" style="height:200px; border-radius:6px;"></div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </div>
+  
+
+  <!-- Giscus Comments Section (unchanged) -->
+  <div id="giscus-comments" style="padding: 30px;">
+    <script src="https://giscus.app/client.js"
+        data-repo="AVKSTUDIO/avkstudio"
+        data-repo-id="R_kgDOPmVIIw"
+        data-category-id="DIC_kwDOPmVII84CvB42"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="light"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+    </script>
+  </div>
+
+  <!-- Services + rest of your page (unchanged) -->
+  <section class="services-section">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="services-item">
+            <img src="img/icons/1.png" alt="">
+            <h4>Studio Photography</h4>
+            <p>Capture your best moments in a professional studio with creative lighting and stylish backdrops.</p>
+          </div>
+        </div>
+		<div class="col-lg-4 col-md-6">
+			<div class="services-item">
+				<img src="img/icons/2.png" alt="">
+				<h4>Wedding Editing</h4>
+				<p>Relive your big day with cinematic edits that bring out every emotion and detail.</p>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6">
+			<div class="services-item">
+				<img src="img/icons/3.png" alt="">
+				<h4>Albums & Prints</h4>
+				<p>Turn your memories into timeless albums, framed prints, or custom keepsakes.</p>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6">
+			<div class="services-item">
+				<img src="img/icons/4.png" alt="">
+				<h4>Modern Editing</h4>
+				<p>Clean, trendy edits tailored for social media or personal collections.</p>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6">
+			<div class="services-item">
+				<img src="img/icons/5.png" alt="">
+				<h4>Video Recording</h4>
+				<p>High-quality video coverage that tells your story from start to finish. </p>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6">
+			<div class="services-item">
+				<img src="img/icons/6.png" alt="">
+				<h4>Video Editing</h4>
+				<p>Professional video edits — from wedding reels to event highlights.</p>
+			</div>
+		</div>
+        <!-- rest of services ... -->
+      </div>
+      <div class="text-center">
+        <p>✨ “Love what you see? Let’s create something together.”</p>
+        <div class="site-btn">Ask for a Quote</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Instagram + footer (unchanged) ... -->
+  <div class="instagram-section">
+    <h6>Instagram Feed</h6>
+    <div id="instafeed" class="instagram-slider owl-carousel"></div>
+  </div>
+
+  <footer class="footer-section">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 order-1 order-md-2">
+          <div class="footer-social-links">
+            <a href=""><i class="fa fa-pinterest"></i></a>
+            <a href=""><i class="fa fa-facebook"></i></a>
+            <a href=""><i class="fa fa-twitter"></i></a>
+            <a href=""><i class="fa fa-dribbble"></i></a>
+            <a href=""><i class="fa fa-behance"></i></a>
+          </div>
+        </div>
+        <div class="col-md-6 order-2 order-md-1">
+          <div class="copyright">
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!--====== Javascripts & Jquery ======-->
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.slicknav.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/circle-progress.min.js"></script>
+  <script src="js/mixitup.min.js"></script>
+  <script src="js/instafeed.min.js"></script>
+  <script src="js/masonry.pkgd.min.js"></script>
+
+  <!-- ====== Albums from Google Sheets (Apps Script) ====== -->
+  <script>
+	const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbweVvMAr9Jp__GgLFFYmT2AgnfnQraYwB7mD1erHlBxvyzNiNINT1bn3fSad5GrLTdqGQ/exec';
+	const DEFAULT_SLUG = 'theenesh-yarlini';
+  
+	function slugFromURL() {
+	  const u = new URL(window.location.href);
+	  return u.searchParams.get('album') || DEFAULT_SLUG;
+	}
+  
+	async function fetchAlbum(slug) {
+	  const url = APPS_SCRIPT_URL + '?slug=' + encodeURIComponent(slug);
+	  const res = await fetch(url);
+	  if (!res.ok) throw new Error('Failed to fetch album data');
+	  const j = await res.json();
+	  if (!j.ok) throw new Error('Apps Script returned error');
+	  return j.album;
+	}
+  
+	function clearHighlights() {
+	  document.getElementById('highlight-row').innerHTML = '';
+	}
+  
+	function renderHighlights(highlightsCsv, galleryLink, title) {
+	  const container = document.getElementById('highlight-row');
+	  clearHighlights();
+  
+	  const urls = (highlightsCsv || '').split(',').map(s => s.trim()).filter(Boolean);
+  
+	  if (urls.length === 0) {
+		const col = document.createElement('div');
+		col.className = 'col-12 text-center';
+		col.innerHTML = '<p style="opacity:.7">No highlights provided.</p>';
+		container.appendChild(col);
+		return;
+	  }
+  
+	  urls.slice(0, 4).forEach(u => {
+		const col = document.createElement('div');
+		col.className = 'col-lg-3 col-sm-6';
+  
+		const inner = document.createElement('div');
+		inner.className = 'highlight-item img-loading skeleton';
+  
+		const img = document.createElement('img');
+		img.src = u;
+		img.alt = title + ' highlight';
+		img.className = 'img-fluid rounded-img hidden';
+		img.style.cursor = 'pointer';
+  
+		img.onload = () => {
+		  img.classList.remove('hidden');
+		  inner.classList.remove('skeleton', 'img-loading');
+		};
+  
+		img.onerror = () => {
+		  img.src = 'img/fallback.jpg';
+		  img.classList.remove('hidden');
+		  inner.classList.remove('skeleton', 'img-loading');
+		};
+  
+		img.addEventListener('click', () => window.open(galleryLink || '#', '_blank'));
+  
+		inner.appendChild(img);
+		col.appendChild(inner);
+		container.appendChild(col);
+	  });
+	}
+  
+	function renderAlbum(album) {
+	  if (!album) {
+		document.getElementById('album-title').textContent = 'Album not found';
+		document.getElementById('album-btn').style.display = 'none';
+		return;
+	  }
+  
+	  // Cover
+	  const cover = document.getElementById('album-cover');
+	  cover.src = album.cover || 'img/fallback.jpg';
+	  cover.alt = album.title || 'Album cover';
+	  cover.classList.remove('hidden');
+	  cover.parentElement.classList.remove('skeleton');
+  
+	  // Title
+	  const title = document.getElementById('album-title');
+	  title.textContent = album.title || '';
+	  title.classList.remove('skeleton-text');
+  
+	  // Subtitle (date & venue)
+	  const sub = document.getElementById('album-sub');
+	  const dateVenue = [album.date, album.venue].filter(Boolean).join(' • ');
+	  sub.textContent = dateVenue;
+	  sub.classList.remove('skeleton-text');
+  
+	  // Button
+	  const btn = document.getElementById('album-btn');
+	  btn.href = album.galleryLink || '#';
+	  btn.textContent = "Open Album";
+	  btn.classList.remove('skeleton-btn', 'disabled');
+  
+	  // Highlights
+	  renderHighlights(album.highlights, album.galleryLink, album.title);
+	}
+  
+	(async function init() {
+	  try {
+		const slug = slugFromURL();
+		const album = await fetchAlbum(slug);
+		renderAlbum(album);
+	  } catch (err) {
+		console.error(err);
+		document.getElementById('album-title').textContent = 'Album not found';
+	  }
+	})();
+  </script>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

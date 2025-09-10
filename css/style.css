@@ -790,6 +790,69 @@ ol {
   About page
 ---------------------*/
 
+/* Skeleton styles */
+.skeleton {
+	background: #e0e0e0;
+	border-radius: 8px;
+	min-height: 200px;
+	animation: shimmer 1.5s infinite linear;
+  }
+  
+  .skeleton-text {
+	display: inline-block;
+	background: #e0e0e0;
+	border-radius: 4px;
+	color: transparent !important;
+	min-width: 150px;
+	min-height: 1em;
+	animation: shimmer 1.5s infinite linear;
+  }
+  
+  .skeleton-btn {
+	display: inline-block;
+	background: #e0e0e0;
+	border-radius: 25px;
+	color: transparent !important;
+	min-width: 120px;
+	min-height: 40px;
+	animation: shimmer 1.5s infinite linear;
+  }
+  
+  .skeleton-box {
+	width: 100%;
+	height: 200px;
+	border-radius: 8px;
+	background: #e0e0e0;
+	animation: shimmer 1.5s infinite linear;
+  }
+  
+  /* Shimmer animation */
+  @keyframes shimmer {
+	0% {
+	  background-position: -500px 0;
+	}
+	100% {
+	  background-position: 500px 0;
+	}
+  }
+  
+  .skeleton, .skeleton-text, .skeleton-btn, .skeleton-box {
+	background: linear-gradient(
+	  to right,
+	  #eeeeee 8%,
+	  #dddddd 18%,
+	  #eeeeee 33%
+	);
+	background-size: 1000px 100%;
+  }
+  
+  /* Hide broken image icon */
+  img.hidden {
+	display: none;
+  }
+
+
+
 .about-bg {
 	height: 100%;
 }
