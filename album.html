@@ -64,10 +64,20 @@
 		  <div class="about-text">
 			<h2 id="album-title" class="skeleton-text">Loading title…</h2>
 			<p id="album-sub" class="album-sub skeleton-text">Loading date & venue…</p>
-			<a id="album-btn" href="#" 
-			   class="site-btn skeleton-btn disabled" 
-			   target="_blank" 
-			   rel="noopener">Loading...</a>
+  
+			<!-- Buttons Row -->
+			<div class="d-flex mt-3">
+				<!-- Album Button -->
+				<a id="album-btn" href="#" 
+				   class="site-btn skeleton-btn disabled" 
+				   target="_blank" 
+				   rel="noopener">Loading...</a>
+			  
+				<!-- Share Button -->
+				<button id="share-btn" class="site-btn skeleton-btn disabled ms-2" disabled style="margin-left:16px;">
+				  <i class="fa fa-share-alt"></i> Share
+				</button>
+			  </div>
 		  </div>
 		</div>
 	  </div>
@@ -304,11 +314,36 @@
 	  sub.textContent = dateVenue;
 	  sub.classList.remove('skeleton-text');
   
-	  // Button
+	  // Album Button
 	  const btn = document.getElementById('album-btn');
 	  btn.href = album.galleryLink || '#';
 	  btn.textContent = "Open Album";
 	  btn.classList.remove('skeleton-btn', 'disabled');
+
+
+  // Share button
+  const shareBtn = document.getElementById("share-btn");
+  shareBtn.classList.remove("skeleton-btn", "disabled");
+  shareBtn.classList.add("btn-black");
+  shareBtn.removeAttribute("disabled");
+
+  // Share button click handler
+  shareBtn.addEventListener("click", async () => {
+    try {
+      await navigator.clipboard.writeText(window.location.href);
+      shareBtn.innerHTML = `<i class="fa fa-check"></i> Copied`;
+      shareBtn.classList.remove("btn-black");
+      shareBtn.classList.add("btn-success"); // green
+      setTimeout(() => {
+        shareBtn.innerHTML = `<i class="fa fa-share-alt"></i> Share`;
+        shareBtn.classList.remove("btn-success");
+        shareBtn.classList.add("btn-black");
+      }, 2000);
+    } catch (err) {
+      console.error("Failed to copy:", err);
+    }
+  });
+
   
 	  // Highlights
 	  renderHighlights(album.highlights, album.galleryLink, album.title);
@@ -324,6 +359,8 @@
 		document.getElementById('album-title').textContent = 'Album not found';
 	  }
 	})();
+
+	
   </script>
 
   <script src="js/main.js"></script>
