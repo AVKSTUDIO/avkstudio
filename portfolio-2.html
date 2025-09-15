@@ -31,127 +31,81 @@
 
 </head>
 <body>
-	<!-- Page Preloder -->
-	<div id="preloder">
-		<div class="loader"></div>
+
+  <!-- Header (unchanged) -->
+  <header class="header-section">
+    <a href="index.html" class="site-logo"><img src="img/AVK_LOGO (1).png" alt="logo" style="width:20%;"></a>
+    <div class="header-controls">
+      <button class="nav-switch-btn"><i class="fa fa-bars"></i></button>
+    </div>
+    <ul class="main-menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li>
+        <a href="#">Other Services</a>
+        <ul class="sub-menu">
+          <li><a href="portfolio-1.html">Website Building</a></li>
+          <li><a href="portfolio-2.html">Custom Software Development</a></li>
+        </ul>
+      </li>
+    </ul>
+  </header>
+	
+  <!-- ===== Custom Software Development Section ===== -->
+<section class="service-section bg-light p-5">
+	<div class="container">
+	  <h2 class="section-title text-center">Find Your Solution Here 🚀</h2>
+	  <p class="text-center mb-5">
+		We build custom software solutions designed around your business needs. 
+		Whether you need an internal system, a customer portal, or a unique workflow, 
+		we’ll create it for you.
+	  </p>
+  
+	  <div class="row text-center mb-5">
+		<div class="col-lg-4 col-md-6 mb-4">
+		  <div class="feature-box">
+			<i class="fa fa-cogs fa-2x mb-3"></i>
+			<h5>Internal Business Systems</h5>
+			<p>CRM, inventory management, HR solutions, and more.</p>
+		  </div>
+		</div>
+  
+		<div class="col-lg-4 col-md-6 mb-4">
+		  <div class="feature-box">
+			<i class="fa fa-users fa-2x mb-3"></i>
+			<h5>Customer Portals</h5>
+			<p>Booking systems, membership portals, online payments.</p>
+		  </div>
+		</div>
+  
+		<div class="col-lg-4 col-md-6 mb-4">
+		  <div class="feature-box">
+			<i class="fa fa-link fa-2x mb-3"></i>
+			<h5>API Integrations</h5>
+			<p>Connect your business tools and automate workflows.</p>
+		  </div>
+		</div>
+	  </div>
+  
+	  <div class="text-center">
+		<a href="#contact" class="site-btn">Enquire Now</a>
+	  </div>
 	</div>
-
-	<!-- Header section  -->
-	<header class="header-section">
-		<a href="index.html" class="site-logo"><img src="img/AVK_LOGO (1).png" alt="logo" style="width:20%;"></a>
-		<div class="header-controls">
-			<button class="nav-switch-btn"><i class="fa fa-bars"></i></button>
-			<!-- <button class="search-btn"><i class="fa fa-search"></i></button> -->
-		</div>
-		<ul class="main-menu">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="pricing.html">Pricing</a></li>
-			<li>
-				<a href="#">Other Services</a>
-				<ul class="sub-menu">
-					<li><a href="portfolio-1.html">Website Building</a></li>
-					<li><a href="portfolio-2.html">Custom Software Development</a></li>
-					
-				</ul>
-			</li>
-		</ul>
-	</header>
-
-	<!-- Portfolio section  -->
-	<div class="portfolio-3-section">
-		<ul class="portfolio-filter pf-2 controls">
-			<li class="control" data-filter="all">All</li>
-			<li class="control" data-filter=".nature">Nature</li>
-			<li class="control" data-filter=".studio">Studio Photography</li>
-			<li class="control" data-filter=".weddings">Weddings</li>
-			<li class="control" data-filter=".lifestyle">Lifestyle</li>
-			<li class="control" data-filter=".fashion">Fashion</li>
-		</ul>
-		<div class="portfolio-grid portfolio-gallery nature">
-			<div class="grid-sizer"></div>
-			<div class="mix grid-item">
-				<div class="grid-portfolio">
-					<img src="img/portfolio-2/1.jpg" alt="">
-					<h6>Pink Flamingo</h6>
-					<p>2019</p>
-				</div>
-			</div>
-			<div class="mix grid-item grid-width-1 studio">
-				<div class="grid-portfolio">
-					<img src="img/portfolio-2/2.jpg" alt="">
-					<h6>Pink Flamingo</h6>
-					<p>2019</p>
-				</div>
-			</div>
-			<div class="mix grid-item weddings">
-				<div class="grid-portfolio">
-					<img src="img/portfolio-2/3.jpg" alt="">
-					<h6>Pink Flamingo</h6>
-					<p>2019</p>
-				</div>
-			</div>
-			<div class="mix grid-item lifestyle">
-				<div class="grid-portfolio">
-					<img src="img/portfolio-2/4.jpg" alt="">
-					<h6>Pink Flamingo</h6>
-					<p>2019</p>
-				</div>
-			</div>
-			<div class="mix grid-item fashion">
-				<div class="grid-portfolio">
-					<img src="img/portfolio-2/5.jpg" alt="">
-					<h6>Pink Flamingo</h6>
-					<p>2019</p>
-				</div>
-			</div>
-			<div class="mix grid-item grid-width-2 nature">
-				<div class="grid-portfolio">
-					<img src="img/portfolio-2/6.jpg" alt="">
-					<h6>Pink Flamingo</h6>
-					<p>2019</p>
-				</div>
-			</div>
-		</div>
-		<div class="text-center text-sm-right load-more-warp">
-			<button class="site-btn load-more">Load More</button>
-		</div>
-	</div>
-	<!-- Portfolio section end  -->
-
-	<!-- Footer section   -->
-	<footer class="footer-section">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-6 order-1 order-md-2">
-					<div class="footer-social-links">
-						<a href=""><i class="fa fa-pinterest"></i></a>
-						<a href=""><i class="fa fa-facebook"></i></a>
-						<a href=""><i class="fa fa-twitter"></i></a>
-						<a href=""><i class="fa fa-dribbble"></i></a>
-						<a href=""><i class="fa fa-behance"></i></a>
-					</div>
-				</div>
-				<div class="col-md-6 order-2 order-md-1">
-					<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-</div>	
-				</div>
-			</div>
-		</div>
-	</footer>
-	<!-- Footer section end  -->
-
-	<!-- Search model -->
-	<div class="search-model">
-		<div class="h-100 d-flex align-items-center justify-content-center">
-			<div class="search-close-switch">+</div>
-			<form class="search-model-form">
-				<input type="text" id="search-input" placeholder="Search here.....">
-			</form>
-		</div>
-	</div>
-	<!-- Search model end -->
+  </section>
+  
+  <style>
+	.feature-box {
+	  background: #fff;
+	  padding: 25px;
+	  border-radius: 8px;
+	  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+	  transition: 0.3s;
+	}
+	.feature-box:hover {
+	  transform: translateY(-5px);
+	  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+	}
+  </style>
 
 	<!--====== Javascripts & Jquery ======-->
 	<script src="js/jquery-3.2.1.min.js"></script>
