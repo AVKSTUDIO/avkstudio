@@ -243,7 +243,7 @@
 	  document.getElementById('highlight-row').innerHTML = '';
 	}
   
-	function renderHighlights(highlightsCsv, galleryLink, title) {
+	function renderHighlights(highlightsCsv, gallerylink, title) {
 	  const container = document.getElementById('highlight-row');
 	  clearHighlights();
   
@@ -281,7 +281,7 @@
 		  inner.classList.remove('skeleton', 'img-loading');
 		};
   
-		img.addEventListener('click', () => window.open(galleryLink || '#', '_blank'));
+		img.addEventListener('click', () => window.open(gallerylink || '#', '_blank'));
   
 		inner.appendChild(img);
 		col.appendChild(inner);
@@ -316,7 +316,7 @@
   
 	  // Album Button
 	  const btn = document.getElementById('album-btn');
-	  btn.href = album.galleryLink || '#';
+	  btn.href = album.gallerylink || '#';
 	  btn.textContent = "Open Album";
 	  btn.classList.remove('skeleton-btn', 'disabled');
 
@@ -346,7 +346,7 @@
 
   
 	  // Highlights
-	  renderHighlights(album.highlights, album.galleryLink, album.title);
+	  renderHighlights(album.highlights, album.gallerylink, album.title);
 	}
   
 	(async function init() {
