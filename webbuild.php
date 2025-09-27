@@ -1,55 +1,12 @@
-<!DOCTYPE html>
-<html lang="zxx">
-<head>
-	<title>Photographer | HTML Template</title>
-	<meta charset="UTF-8">
-	<meta name="description" content="Photographer html template">
-	<meta name="keywords" content="photographer, html">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
-	<!-- Favicon -->
-	<link href="img/favicon.ico" rel="shortcut icon"/>
-
-	<!-- Google font -->
-	<link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
-
-	<!-- Stylesheets -->
-	<link rel="stylesheet" href="css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="css/font-awesome.min.css"/>
-	<link rel="stylesheet" href="css/magnific-popup.css"/>
-	<link rel="stylesheet" href="css/slicknav.min.css"/>
-	<link rel="stylesheet" href="css/owl.carousel.min.css"/>
-
-	<!-- Main Stylesheets -->
-	<link rel="stylesheet" href="css/style.css"/>
+<?php
+$title = "Website Building – AVK Studio | Custom Business & Professional Websites";
+$description = "Affordable website development packages by AVK Studio in Malaysia. From landing pages to custom websites with SEO, hosting, and support included.";
+$keywords = "website building Malaysia, business website, custom website design, SEO web development, AVK Studio";
+$ogImage = "https://www.avkstudio.com/img/webbuild-og.jpg";
+include 'header.php';
+?>
 
 
-	<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
-
-</head>
-<body>
-
-  <!-- Header (unchanged) -->
-  <header class="header-section">
-    <a href="index.html" class="site-logo"><img src="img/AVK_LOGO (1).png" alt="logo" style="width:20%;"></a>
-    <div class="header-controls">
-      <button class="nav-switch-btn"><i class="fa fa-bars"></i></button>
-    </div>
-    <ul class="main-menu">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="pricing.html">Pricing</a></li>
-      <li>
-        <a href="#">Other Services</a>
-        <ul class="sub-menu">
-          <li><a href="portfolio-1.html">Website Building</a></li>
-          <li><a href="portfolio-2.html">Custom Software Development</a></li>
-        </ul>
-      </li>
-    </ul>
-  </header>
 	<!-- ===== Website Building Section ===== -->
 <section class="service-section">
   <div class="container">
@@ -148,17 +105,4 @@
   }
 </style>
 
-	<!--====== Javascripts & Jquery ======-->
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.slicknav.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/circle-progress.min.js"></script>
-	<script src="js/mixitup.min.js"></script>
-	<script src="js/instafeed.min.js"></script>
-	<script src="js/masonry.pkgd.min.js"></script>
-	<script src="js/main.js"></script>
-
-	</body>
-</html>
+<?php include 'footer.php'; ?>

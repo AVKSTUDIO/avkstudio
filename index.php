@@ -1,63 +1,11 @@
-<!DOCTYPE html>
-<html lang="zxx">
-<head>
-	<title>Memories,Preserved in Every Frame</title>
-	<meta charset="UTF-8">
-	<meta name="description" content="Photographer html template">
-	<meta name="keywords" content="photographer, html">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
-	<!-- Favicon -->
-	<link href="img/favicon.ico" rel="shortcut icon"/>
+<?php
+$title = "Home – AVK Studio | Memories, Preserved in Every Frame";
+$description = "Professional photography in Malaysia. Weddings, birthdays, and events captured by AVK Studio.";
+$keywords = "wedding photography, birthday photographer, Malaysia photography, AVK Studio";
+$ogImage = "https://www.avkstudio.com/img/home-og.jpg";
+include 'header.php';
+?>
 
-	<!-- Google font -->
-	<link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
-
-	<!-- Stylesheets -->
-	<link rel="stylesheet" href="css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="css/font-awesome.min.css"/>
-	<link rel="stylesheet" href="css/magnific-popup.css"/>
-	<link rel="stylesheet" href="css/slicknav.min.css"/>
-	<link rel="stylesheet" href="css/owl.carousel.min.css"/>
-
-	<!-- Main Stylesheets -->
-	<link rel="stylesheet" href="css/style.css"/>
-
-
-	<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
-
-</head>
-<body>
-	<!-- Page Preloder -->
-	<div id="preloder">
-		<div class="loader"></div>
-	</div>
-
-	<!-- Header section  -->
-	<header class="header-section">
-		<a href="index.html" class="site-logo"><img src="img/AVK_LOGO (1).png" alt="logo" style="width:20%;"></a>
-		<div class="header-controls">
-			<button class="nav-switch-btn"><i class="fa fa-bars"></i></button>
-			<!-- <button class="search-btn"><i class="fa fa-search"></i></button> -->
-		</div>
-		<ul class="main-menu">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="pricing.html">Pricing</a></li>
-			<li>
-				<a href="#">Other Services</a>
-				<ul class="sub-menu">
-					<li><a href="portfolio-1.html">Website Building</a></li>
-					<li><a href="portfolio-2.html">Custom Software Development</a></li>
-					
-				</ul>
-			</li>
-		</ul>
-	</header>
-	<div class="clearfix"></div>
-	<!-- Header section end  -->
 
 <!-- Announcement Bar Start -->
 <div class="announcement-bar">
@@ -73,49 +21,49 @@
 
 		<div class="hero-item portfolio-item set-bg" data-setbg="img/portfolio/service-birthday-photography-1.jpg">
 			<img src="img/portfolio/service-birthday-photography-1.jpg" alt="Abrielle’s 1st Birthday photography session in Kuala Lumpur" class="d-none">
-			<a href="/album.html?album=Abrielle-1st-Birthday" class="hero-link">
+			<a href="/album.php?album=Abrielle-1st-Birthday" class="hero-link">
 				<h2>Abrielle’s 1st Birthday Photography in Kuala Lumpur</h2>
 			</a>
 		</div>
 
 		<div class="hero-item portfolio-item set-bg" data-setbg="img/portfolio/gallery-puberty-tamil-photoshot.jpg">
 			<img src="img/portfolio/gallery-puberty-tamil-photoshot.jpg" alt="Tamil puberty ceremony photography for Sahannah in Kuala Lumpur" class="d-none">
-			<a href="/album.html?album=Sahannah-Puberty" class="hero-link">
+			<a href="/album.php?album=Sahannah-Puberty" class="hero-link">
 				<h2>Sahannah’s Tamil Puberty Ceremony Photography</h2>
 			</a>
 		</div>
 
 		<div class="hero-item portfolio-item set-bg" data-setbg="img/portfolio/gallery-tamil-couple-engagement-photoshot.jpg">
 			<img src="img/portfolio/gallery-tamil-couple-engagement-photoshot.jpg" alt="Engagement photography of Suresh and Mithra in Kuala Lumpur" class="d-none">
-			<a href="/album.html?album=Suresh-Weds-Mithra-Engagement" class="hero-link">
+			<a href="/album.php?album=Suresh-Weds-Mithra-Engagement" class="hero-link">
 				<h2>Suresh & Mithra Engagement Photography</h2>
 			</a>
 		</div>
 
 		<div class="hero-item portfolio-item set-bg" data-setbg="img/portfolio/gallery-birthday-family-photoshoot.jpg">
 			<img src="img/portfolio/gallery-birthday-family-photoshoot.jpg" alt="50th birthday celebration photography for Mrs Nirmala with family" class="d-none">
-			<a href="/album.html?album=50th-Birthday-MrsNirmala" class="hero-link">
+			<a href="/album.php?album=50th-Birthday-MrsNirmala" class="hero-link">
 				<h2>50th Birthday Celebration – Mrs Nirmala</h2>
 			</a>
 		</div>
 
 		<div class="hero-item portfolio-item set-bg" data-setbg="img/portfolio/highlight-wedding-hindu-temple.jpg">
 			<img src="img/portfolio/highlight-wedding-hindu-temple.jpg" alt="Hindu temple wedding photography of Anbearasen and Sangery" class="d-none">
-			<a href="/album.html?album=Anbearasen-Weds-Sangery" class="hero-link">
+			<a href="/album.php?album=Anbearasen-Weds-Sangery" class="hero-link">
 				<h2>Anbearasen & Sangery Hindu Temple Wedding</h2>
 			</a>
 		</div>
 
 		<div class="hero-item portfolio-item set-bg" data-setbg="img/portfolio/gallery-engagement-photoshoot.jpg">
 			<img src="img/portfolio/gallery-engagement-photoshoot.jpg" alt="Engagement photography of Yogendran and Indhumathi in Kuala Lumpur" class="d-none">
-			<a href="/album.html?album=Yogendran-Weds-Indhumathi-Engagement" class="hero-link">
+			<a href="/album.php?album=Yogendran-Weds-Indhumathi-Engagement" class="hero-link">
 				<h2>Yogendran & Indhumathi Engagement Photography</h2>
 			</a>
 		</div>
 
 		<div class="hero-item portfolio-item set-bg" data-setbg="img/portfolio/highlight-birthday-event-photoshot.jpg">
 			<img src="img/portfolio/highlight-birthday-event-photoshot.jpg" alt="Abigail’s 1st Birthday photography session in Kuala Lumpur" class="d-none">
-			<a href="/album.html?album=Abigail-1st-Birthday" class="hero-link">
+			<a href="/album.php?album=Abigail-1st-Birthday" class="hero-link">
 				<h2>Abigail’s 1st Birthday Photography</h2>
 			</a>
 		</div>
@@ -125,49 +73,49 @@
 
 		<div class="hero-item portfolio-item set-bg" data-setbg="img/portfolio/service-product-saree-photoshot.jpg">
 			<img src="img/portfolio/service-product-saree-photoshot.jpg" alt="Saree fashion model product photography session" class="d-none">
-			<a href="/album.html?album=Saree-Model-Shoot" class="hero-link">
+			<a href="/album.php?album=Saree-Model-Shoot" class="hero-link">
 				<h2>Saree Model Product Photography</h2>
 			</a>
 		</div>
 
 		<div class="hero-item portfolio-item set-bg" data-setbg="img/portfolio/highlight-wedding-christianchurch.png">
 			<img src="img/portfolio/highlight-wedding-christianchurch.png" alt="Christian church wedding photography of Joshua and Sugitha" class="d-none">
-			<a href="/album.html?album=Joshua-Weds-Sugitha" class="hero-link">
+			<a href="/album.php?album=Joshua-Weds-Sugitha" class="hero-link">
 				<h2>Joshua & Sugitha Christian Wedding</h2>
 			</a>
 		</div>
 
 		<div class="hero-item portfolio-item set-bg" data-setbg="img/portfolio/service-birthday-function-photography.jpg">
 			<img src="img/portfolio/service-birthday-function-photography.jpg" alt="Sarah’s 1st Birthday event photography" class="d-none">
-			<a href="/album.html?album=Sarah-1st-birthday" class="hero-link">
+			<a href="/album.php?album=Sarah-1st-birthday" class="hero-link">
 				<h2>Sarah’s 1st Birthday Photography</h2>
 			</a>
 		</div>
 
 		<div class="hero-item portfolio-item set-bg" data-setbg="img/portfolio/gallery-21stbirthday-photoshot.jpg">
 			<img src="img/portfolio/gallery-21stbirthday-photoshot.jpg" alt="21st Birthday celebration photography for Thivesh" class="d-none">
-			<a href="/album.html?album=thivesh-21st-birthday" class="hero-link">
+			<a href="/album.php?album=thivesh-21st-birthday" class="hero-link">
 				<h2>Thivesh 21st Birthday Celebration</h2>
 			</a>
 		</div>
 
 		<div class="hero-item portfolio-item set-bg" data-setbg="img/portfolio/service-coorporate-event-photography.jpg">
 			<img src="img/portfolio/service-coorporate-event-photography.jpg" alt="Corporate photography for Horizon Livia Raya Pot Luck 2023 event" class="d-none">
-			<a href="/album.html?album=Horizon-Livia-Raya-Pot-Luck-2023" class="hero-link">
+			<a href="/album.php?album=Horizon-Livia-Raya-Pot-Luck-2023" class="hero-link">
 				<h2>Horizon Livia Raya Pot Luck 2023 Corporate Event</h2>
 			</a>
 		</div>
 
 		<div class="hero-item portfolio-item set-bg" data-setbg="img/portfolio/highlight-birthday-funtion-photo.jpg">
 			<img src="img/portfolio/highlight-birthday-funtion-photo.jpg" alt="Birthday photography for Dehvinshasre & Saanjana" class="d-none">
-			<a href="/album.html?album=Dehvinshasre-&-Saanjana-Birthday" class="hero-link">
+			<a href="/album.php?album=Dehvinshasre-&-Saanjana-Birthday" class="hero-link">
 				<h2>Dehvinshasre & Saanjana Birthday Celebration</h2>
 			</a>
 		</div>
 
 		<div class="hero-item portfolio-item set-bg" data-setbg="img/portfolio/gallery-tamil-couple-wedding-photoshot.png">
 			<img src="img/portfolio/gallery-tamil-couple-wedding-photoshot.png" alt="Tamil wedding photography of Theenesh and Yarlini" class="d-none">
-			<a href="/album.html?album=Theenesh-Weds-Yarlini" class="hero-link">
+			<a href="/album.php?album=Theenesh-Weds-Yarlini" class="hero-link">
 				<h2>Theenesh & Yarlini Tamil Wedding</h2>
 			</a>
 		</div>
@@ -177,49 +125,49 @@
 
 		<div class="hero-item portfolio-item set-bg" data-setbg="img/portfolio/gallery-birthday-cake.jpg">
 			<img src="img/portfolio/gallery-birthday-cake.jpg" alt="Naomi’s 1st Birthday cake photography session" class="d-none">
-			<a href="/album.html?album=Naomi-1st-Birthday" class="hero-link">
+			<a href="/album.php?album=Naomi-1st-Birthday" class="hero-link">
 				<h2>Naomi’s 1st Birthday Cake Photography</h2>
 			</a>
 		</div>
 
 		<div class="hero-item portfolio-item set-bg" data-setbg="img/portfolio/gallery-birthday-photo-2.jpg">
 			<img src="img/portfolio/gallery-birthday-photo-2.jpg" alt="Naomi’s 1st Birthday family photography" class="d-none">
-			<a href="/album.html?album=Naomi-1st-Birthday" class="hero-link">
+			<a href="/album.php?album=Naomi-1st-Birthday" class="hero-link">
 				<h2>Naomi’s 1st Birthday Family Photography</h2>
 			</a>
 		</div>
 
 		<div class="hero-item portfolio-item set-bg" data-setbg="img/portfolio/service-temple-wedding-photography.jpg">
 			<img src="img/portfolio/service-temple-wedding-photography.jpg" alt="Temple wedding photography of Muthu and Ruthra in Kuala Lumpur" class="d-none">
-			<a href="/album.html?album=Muthu-Weds-Ruthra" class="hero-link">
+			<a href="/album.php?album=Muthu-Weds-Ruthra" class="hero-link">
 				<h2>Muthu & Ruthra Temple Wedding</h2>
 			</a>
 		</div>
 
 		<div class="hero-item portfolio-item set-bg" data-setbg="img/portfolio/gallery-sample-1.jpg">
 			<img src="img/portfolio/gallery-sample-1.jpg" alt="Abrielle’s 1st Birthday event photography" class="d-none">
-			<a href="/album.html?album=Abrielle-1st-Birthday" class="hero-link">
+			<a href="/album.php?album=Abrielle-1st-Birthday" class="hero-link">
 				<h2>Abrielle’s 1st Birthday Photography</h2>
 			</a>
 		</div>
 
 		<div class="hero-item portfolio-item set-bg" data-setbg="img/portfolio/service-product-saree-photoshot2.jpg">
 			<img src="img/portfolio/service-product-saree-photoshot2.jpg" alt="Second Saree model product photography session" class="d-none">
-			<a href="/album.html?album=Saree-Model-Shoot" class="hero-link">
+			<a href="/album.php?album=Saree-Model-Shoot" class="hero-link">
 				<h2>Saree Model Shoot – Product Photography</h2>
 			</a>
 		</div>
 
 		<div class="hero-item portfolio-item set-bg" data-setbg="img/portfolio/highlight-wedding-christian.png">
 			<img src="img/portfolio/highlight-wedding-christian.png" alt="Christian wedding photography of Joshua and Sugitha in Kuala Lumpur" class="d-none">
-			<a href="/album.html?album=Joshua-Weds-Sugitha" class="hero-link">
+			<a href="/album.php?album=Joshua-Weds-Sugitha" class="hero-link">
 				<h2>Joshua & Sugitha Christian Wedding</h2>
 			</a>
 		</div>
 
 		<div class="hero-item portfolio-item set-bg" data-setbg="img/portfolio/service-product-photography.jpg">
 			<img src="img/portfolio/service-product-photography.jpg" alt="Product photography for Cococlo catalogue shoot" class="d-none">
-			<a href="/album.html?album=Cococlo-Product-Catalogue-Shoot" class="hero-link">
+			<a href="/album.php?album=Cococlo-Product-Catalogue-Shoot" class="hero-link">
 				<h2>Cococlo Product Catalogue Shoot</h2>
 			</a>
 		</div>
@@ -255,7 +203,7 @@
 <section class="hero-section" style="position: relative; height: 100vh; background: url('img/portfolio/your-hero-image.jpg') center/cover no-repeat;">
 	<div class="hero-overlay"></div>
 	<div class="hero-content">
-	  <h1 class="hero-title">Memories, Preserved in Every Frame</h1>
+	  <h1>Professional Wedding & Event Photography in Malaysia</h1>
 	  <p class="hero-subtitle">At AVK Studio, every photograph is crafted to embody elegance, detail, and timeless emotion.</p>
 	  <a href="https://wa.me/60162118863" class="whatsapp-btn">📞 WhatsApp Us</a>
 	</div>
@@ -320,53 +268,4 @@
 	}
   }
   </style>
-	
-	<!-- Footer section   -->
-	<footer class="footer-section">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-6 order-1 order-md-2">
-					<div class="footer-social-links">
-						<a href=""><i class="fa fa-pinterest"></i></a>
-						<a href=""><i class="fa fa-facebook"></i></a>
-						<a href=""><i class="fa fa-twitter"></i></a>
-						<a href=""><i class="fa fa-dribbble"></i></a>
-						<a href=""><i class="fa fa-behance"></i></a>
-					</div>
-				</div>
-				<div class="col-md-6 order-2 order-md-1">
-					<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-</div>	
-				</div>
-			</div>
-		</div>
-	</footer>
-	<!-- Footer section end  -->
-
-	<!-- Search model -->
-	<div class="search-model">
-		<div class="h-100 d-flex align-items-center justify-content-center">
-			<div class="search-close-switch">+</div>
-			<form class="search-model-form">
-				<input type="text" id="search-input" placeholder="Search here.....">
-			</form>
-		</div>
-	</div>
-	<!-- Search model end -->
-
-	<!--====== Javascripts & Jquery ======-->
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.slicknav.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/circle-progress.min.js"></script>
-	<script src="js/mixitup.min.js"></script>
-	<script src="js/instafeed.min.js"></script>
-	<script src="js/masonry.pkgd.min.js"></script>
-	<script src="js/main.js"></script>
-
-	</body>
-</html>
+	<?php include 'footer.php'; ?>

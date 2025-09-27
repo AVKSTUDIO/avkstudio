@@ -1,63 +1,12 @@
-<!DOCTYPE html>
-<html lang="zxx">
-<head>
-	<title>Photographer | HTML Template</title>
-	<meta charset="UTF-8">
-	<meta name="description" content="Photographer html template">
-	<meta name="keywords" content="photographer, html">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
-	<!-- Favicon -->
-	<link href="img/favicon.ico" rel="shortcut icon"/>
+<?php
+$title = "Pricing – AVK Studio | Affordable Photography Packages";
+$description = "Explore AVK Studio's photography and videography packages. From weddings to birthdays, we offer professional services at affordable prices.";
+$keywords = "photography pricing Malaysia, wedding packages, birthday event packages, AVK Studio";
+$ogImage = "https://www.avkstudio.com/img/pricing-og.jpg";
+include 'header.php';
+?>
 
-	<!-- Google font -->
-	<link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
-
-	<!-- Stylesheets -->
-	<link rel="stylesheet" href="css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="css/font-awesome.min.css"/>
-	<link rel="stylesheet" href="css/magnific-popup.css"/>
-	<link rel="stylesheet" href="css/slicknav.min.css"/>
-	<link rel="stylesheet" href="css/owl.carousel.min.css"/>
-
-	<!-- Main Stylesheets -->
-	<link rel="stylesheet" href="css/style.css"/>
-
-
-	<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
-
-</head>
-<body>
-	<!-- Page Preloder -->
-	<div id="preloder">
-		<div class="loader"></div>
-	</div>
-
-	<!-- Header section  -->
-	<header class="header-section">
-		<a href="index.html" class="site-logo"><img src="img/AVK_LOGO (1).png" alt="logo" style="width:20%;"></a>
-		<div class="header-controls">
-			<button class="nav-switch-btn"><i class="fa fa-bars"></i></button>
-			<!-- <button class="search-btn"><i class="fa fa-search"></i></button> -->
-		</div>
-		<ul class="main-menu">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="pricing.html">Pricing</a></li>
-			<li>
-				<a href="#">Other Services</a>
-				<ul class="sub-menu">
-					<li><a href="portfolio-1.html">Website Building</a></li>
-					<li><a href="portfolio-2.html">Custom Software Development</a></li>
-					
-				</ul>
-			</li>
-		</ul>
-	</header>
-
-  <!-- Pricing Section -->
+<!-- Pricing Section -->
 <section class="pricing-section spad">
     <div class="container">
         <div class="section-title text-center mb-5">
@@ -66,7 +15,7 @@
         </div>
 
         <!-- Wedding Packages -->
-        <h3 class="mb-4"> Wedding Packages</h3>
+        <h3 class="mb-4">Wedding Packages</h3>
         <div class="row">
             <!-- Photo Only -->
             <div class="col-md-4 mb-4">
@@ -120,7 +69,7 @@
         </div>
 
         <!-- Events Packages -->
-        <h3 class="mt-5 mb-4"> Mini Events, Birthdays & Other Functions</h3>
+        <h3 class="mt-5 mb-4">Mini Events, Birthdays & Other Functions</h3>
         <div class="table-responsive">
             <table class="table table-bordered text-center">
                 <thead class="table-light">
@@ -134,18 +83,17 @@
                     <tr>
                         <td>📸 Photography (Per Hour)</td>
                         <td>RM 150</td>
-                        <td>- Unlimited Photos
-							- Softcopy</td>
+                        <td>- Unlimited Photos<br>- Softcopy</td>
                     </tr>
                     <tr>
                         <td>🎞️ Photo Editing</td>
                         <td>RM 50</td>
-                        <td>Photo enhancement using Adobe lighroom</td>
+                        <td>Photo enhancement using Adobe Lightroom</td>
                     </tr>
                     <tr>
                         <td>🎥 Videography (Per Hour)</td>
                         <td>RM 180</td>
-                        <td></td>
+                        <td>Event coverage with professional cameras</td>
                     </tr>
                     <tr>
                         <td>✂️ Video Editing</td>
@@ -168,7 +116,7 @@
     </div>
 </section>
 
-<!-- Add this to your CSS file -->
+<!-- Page-specific CSS -->
 <style>
     .pricing-card {
         border-radius: 10px;
@@ -181,54 +129,5 @@
         margin: 8px 0;
     }
 </style>
-			
-	
-	<!-- Footer section   -->
-	<footer class="footer-section">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-6 order-1 order-md-2">
-					<div class="footer-social-links">
-						<a href=""><i class="fa fa-pinterest"></i></a>
-						<a href=""><i class="fa fa-facebook"></i></a>
-						<a href=""><i class="fa fa-twitter"></i></a>
-						<a href=""><i class="fa fa-dribbble"></i></a>
-						<a href=""><i class="fa fa-behance"></i></a>
-					</div>
-				</div>
-				<div class="col-md-6 order-2 order-md-1">
-					<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-</div>	
-				</div>
-			</div>
-		</div>
-	</footer>
-	<!-- Footer section end  -->
 
-	<!-- Search model -->
-	<div class="search-model">
-		<div class="h-100 d-flex align-items-center justify-content-center">
-			<div class="search-close-switch">+</div>
-			<form class="search-model-form">
-				<input type="text" id="search-input" placeholder="Search here.....">
-			</form>
-		</div>
-	</div>
-	<!-- Search model end -->
-
-	<!--====== Javascripts & Jquery ======-->
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.slicknav.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/circle-progress.min.js"></script>
-	<script src="js/mixitup.min.js"></script>
-	<script src="js/instafeed.min.js"></script>
-	<script src="js/masonry.pkgd.min.js"></script>
-	<script src="js/main.js"></script>
-
-	</body>
-</html>
+<?php include 'footer.php'; ?>
