@@ -143,11 +143,7 @@ include 'header.php';
     </div>
   </section>
 
-  <!-- Instagram + footer (unchanged) ... -->
-  <div class="instagram-section">
-    <h6>Instagram Feed</h6>
-    <div id="instafeed" class="instagram-slider owl-carousel"></div>
-  </div>
+  
 
   <?php include 'footer.php'; ?>
 

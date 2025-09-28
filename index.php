@@ -174,8 +174,18 @@ include 'header.php';
 	</div>
 
 	<div class="hero-social-links">
-		<a href=""><i class="fa fa-instagram"></i></a>
-	</div>
+  <!-- Instagram -->
+  <a href="https://www.instagram.com/avkstudio_my/" target="_blank" rel="noopener">
+    <i class="fa fa-instagram"></i>
+  </a>
+
+  <!-- TikTok -->
+  <a href="https://www.tiktok.com/@avk.studio.my" target="_blank" rel="noopener">
+    <i class="fa fa-music"></i> <!-- placeholder icon -->
+  </a>
+</div>
+
+	
 </div>
 
 	<!-- Hero section end  -->

@@ -42,9 +42,9 @@
     <div style="flex:1; min-width:180px; margin-bottom:20px;">
       <h6 style="color:#fff; font-weight:600; margin-bottom:15px;">Follow Us</h6>
       <div style="display:flex; justify-content:center; gap:15px;">
-        <a href="#" style="color:#ddd; font-size:18px;"><i class="fa fa-instagram"></i></a>
-        <a href="#" style="color:#ddd; font-size:18px;"><i class="fa fa-facebook"></i></a>
-        <a href="#" style="color:#ddd; font-size:18px;"><i class="fa fa-whatsapp"></i></a>
+        <a href="https://www.instagram.com/avkstudio_my/" style="color:#ddd; font-size:18px;"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.tiktok.com/@avk.studio.my" style="color:#ddd; font-size:18px;"><i class="fa fa-music"></i></a>
+        <a href="https://wa.me/60162118863" style="color:#ddd; font-size:18px;"><i class="fa fa-whatsapp"></i></a>
       </div>
     </div>
 
