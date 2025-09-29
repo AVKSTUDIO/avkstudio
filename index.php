@@ -210,14 +210,14 @@ include 'header.php';
 	<!-- Intro section end  -->
 
 	<!-- Hero Section -->
-<section class="hero-section" style="position: relative; height: 100vh; background: url('img/portfolio/your-hero-image.jpg') center/cover no-repeat;">
+<!-- <section class="hero-section" style="position: relative; height: 100vh; background: url('img/portfolio/your-hero-image.jpg') center/cover no-repeat;">
 	<div class="hero-overlay"></div>
 	<div class="hero-content">
 	  <h1>Professional Wedding & Event Photography in Malaysia</h1>
 	  <p class="hero-subtitle">At AVK Studio, every photograph is crafted to embody elegance, detail, and timeless emotion.</p>
 	  <a href="https://wa.me/60162118863" class="whatsapp-btn">📞 WhatsApp Us</a>
 	</div>
-  </section>
+  </section> -->
   
   <!-- CSS -->
   <style>

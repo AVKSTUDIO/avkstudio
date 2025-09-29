@@ -48,7 +48,7 @@ include 'header.php';
   <!-- ===== Highlights (with skeletons) ===== -->
   <div class="highlights-section">
 	<div class="container-fluid">
-	  <h2 class="section-title text-center">Highlights</h2>
+	  <h4 class="section-title text-center"style="margin-bottom: 10px;margin-top: 30px;">Highlights</h4>
 	  <div class="container">
 		<div class="row" id="highlight-row">
 		  <!-- skeleton placeholders -->
@@ -88,61 +88,110 @@ include 'header.php';
     </script>
   </div>
 
-  <!-- Services + rest of your page (unchanged) -->
-  <section class="services-section">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-4 col-md-6">
-          <div class="services-item">
-            <img src="img/icons/1.png" alt="">
-            <h4>Studio Photography</h4>
-            <p>Capture your best moments in a professional studio with creative lighting and stylish backdrops.</p>
-          </div>
+  <!-- ===== Services Section (Redesigned like Figma) ===== -->
+<section class="services-section py-5">
+  <div class="container text-center">
+    <p class="section-subtitle">OUR SERVICES</p>
+    <h2 class="section-title">We Offer The Best Creative Solutions</h2>
+
+       <div class="row mt-5">
+      <!-- Photography -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="service-box">
+          <img src="img/icons/1.png" alt="Photography" class="service-icon">
+          <h5>Photography</h5>
+          <p>From studio portraits to wedding shoots, we capture moments with creativity and precision.</p>
         </div>
-		<div class="col-lg-4 col-md-6">
-			<div class="services-item">
-				<img src="img/icons/2.png" alt="">
-				<h4>Wedding Editing</h4>
-				<p>Relive your big day with cinematic edits that bring out every emotion and detail.</p>
-			</div>
-		</div>
-		<div class="col-lg-4 col-md-6">
-			<div class="services-item">
-				<img src="img/icons/3.png" alt="">
-				<h4>Albums & Prints</h4>
-				<p>Turn your memories into timeless albums, framed prints, or custom keepsakes.</p>
-			</div>
-		</div>
-		<div class="col-lg-4 col-md-6">
-			<div class="services-item">
-				<img src="img/icons/4.png" alt="">
-				<h4>Modern Editing</h4>
-				<p>Clean, trendy edits tailored for social media or personal collections.</p>
-			</div>
-		</div>
-		<div class="col-lg-4 col-md-6">
-			<div class="services-item">
-				<img src="img/icons/5.png" alt="">
-				<h4>Video Recording</h4>
-				<p>High-quality video coverage that tells your story from start to finish. </p>
-			</div>
-		</div>
-		<div class="col-lg-4 col-md-6">
-			<div class="services-item">
-				<img src="img/icons/6.png" alt="">
-				<h4>Video Editing</h4>
-				<p>Professional video edits — from wedding reels to event highlights.</p>
-			</div>
-		</div>
-        <!-- rest of services ... -->
       </div>
-      <div class="text-center">
-        <p>✨ “Love what you see? Let’s create something together.”</p>
-        <div class="site-btn">Ask for a Quote</div>
+
+      <!-- Video Production -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="service-box">
+          <img src="img/icons/5.png" alt="Video Production" class="service-icon">
+          <h5>Video Production</h5>
+          <p>High-quality recording and cinematic editing to tell your story in motion.</p>
+        </div>
+      </div>
+
+      <!-- Albums & Prints -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="service-box">
+          <img src="img/icons/3.png" alt="Albums & Prints" class="service-icon">
+          <h5>Albums & Prints</h5>
+          <p>Turn your memories into timeless albums, framed prints, or custom keepsakes.</p>
+        </div>
+      </div>
+
+      <!-- Modern Editing -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="service-box">
+          <img src="img/icons/4.png" alt="Modern Editing" class="service-icon">
+          <h5>Modern Editing</h5>
+          <p>Clean, trendy edits tailored for social media, weddings, and personal collections.</p>
+        </div>
       </div>
     </div>
-  </section>
 
+    <!-- Call to Action -->
+    <div class="text-center mt-4">
+      <p class="quote-line">✨ Love what you see? Let’s create something together.</p>
+      <a href="pricing.php" 
+         target="_blank" 
+         class="site-btn">See Packages</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CSS Styling ===== -->
+<style>
+.services-section {
+  background: #fff;
+}
+.section-subtitle {
+  color: #ff6600;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.section-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: #222;
+}
+.service-box {
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+.service-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+}
+.service-box h5 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.service-box p {
+  font-size: 14px;
+  color: #555;
+}
+.service-icon {
+  width: 50px;
+  height: 50px;
+}
+.quote-line {
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-style: italic;
+  color: #444;
+}
+</style>
   
 
   <?php include 'footer.php'; ?>
