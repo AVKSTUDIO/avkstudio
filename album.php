@@ -142,7 +142,7 @@ include 'header.php';
     <!-- Call to Action -->
     <div class="text-center mt-5">
       <p class="quote-line">✨ Love what you see? Let’s create something together.</p>
-      <a href="pricing.php" target="_blank" class="site-btn orange-btn">
+      <a href="pricing" target="_blank" class="site-btn orange-btn">
         See Packages
       </a>
     </div>

@@ -198,7 +198,8 @@ include 'header.php';
     <p class="hero-subtitle mb-4">
       Capturing weddings, birthdays, and precious events across Malaysia.
     </p>
-    <a href="pricing.php" class="btn btn-primary me-3">Explore Packages</a>
+   <a href="pricing.php" class="btn btn-primary me-3">Explore Packages</a>
+
    <a href="https://wa.me/60162118863?text=Hi%2C%20I'm%20%5BYour%20Name%5D.%20I%20found%20AVK%20Studio%E2%80%99s%20website%20and%20would%20love%20to%20know%20more%20about%20your%20services." 
    target="_blank" class="btn btn-outline-primary">
    Contact Us
