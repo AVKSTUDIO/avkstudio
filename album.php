@@ -23,7 +23,7 @@ include 'header.php';
 		</div>
 		<div class="col-lg-6 p-0">
 		  <div class="about-text">
-			<h1 id="album-title" class="skeleton-text">Loading title…</h1>
+			<h2 id="album-title" class="skeleton-text">Loading title…</h2>
 			<p id="album-sub" class="album-sub skeleton-text">Loading date & venue…</p>
   
 			<!-- Buttons Row -->
@@ -88,110 +88,122 @@ include 'header.php';
     </script>
   </div>
 
-  <!-- ===== Services Section (Redesigned like Figma) ===== -->
-<section class="services-section py-5">
+  <section class="services-section py-5">
   <div class="container text-center">
-    <p class="section-subtitle">OUR SERVICES</p>
-    <h2 class="section-title">We Offer The Best Creative Solutions</h2>
+    <h2 class="section-title mb-4">We Offer the Best Services</h2>
+    <p class="mb-5">At AVK Studio, we make your memories timeless with professional photography, video, and albums.</p>
 
-       <div class="row mt-5">
-      <!-- Photography -->
+    <div class="row">
+      <!-- Studio Photography -->
       <div class="col-lg-3 col-md-6 mb-4">
-        <div class="service-box">
-          <img src="img/icons/1.png" alt="Photography" class="service-icon">
-          <h5>Photography</h5>
-          <p>From studio portraits to wedding shoots, we capture moments with creativity and precision.</p>
+        <div class="service-card">
+          <div class="icon-box">
+            <i class="fa fa-camera"></i>
+          </div>
+          <h5>Studio Photography</h5>
+          <p>Capture your best moments in a professional studio with creative lighting and stylish backdrops.</p>
         </div>
       </div>
 
-      <!-- Video Production -->
+      <!-- Wedding & Event Editing -->
       <div class="col-lg-3 col-md-6 mb-4">
-        <div class="service-box">
-          <img src="img/icons/5.png" alt="Video Production" class="service-icon">
-          <h5>Video Production</h5>
-          <p>High-quality recording and cinematic editing to tell your story in motion.</p>
+        <div class="service-card">
+          <div class="icon-box">
+            <i class="fa fa-film"></i>
+          </div>
+          <h5>Wedding & Event Editing</h5>
+          <p>Relive your big day with cinematic edits that bring out every emotion and detail.</p>
         </div>
       </div>
 
       <!-- Albums & Prints -->
       <div class="col-lg-3 col-md-6 mb-4">
-        <div class="service-box">
-          <img src="img/icons/3.png" alt="Albums & Prints" class="service-icon">
+        <div class="service-card">
+          <div class="icon-box">
+            <i class="fa fa-book"></i>
+          </div>
           <h5>Albums & Prints</h5>
           <p>Turn your memories into timeless albums, framed prints, or custom keepsakes.</p>
         </div>
       </div>
 
-      <!-- Modern Editing -->
+      <!-- Video Recording & Highlights -->
       <div class="col-lg-3 col-md-6 mb-4">
-        <div class="service-box">
-          <img src="img/icons/4.png" alt="Modern Editing" class="service-icon">
-          <h5>Modern Editing</h5>
-          <p>Clean, trendy edits tailored for social media, weddings, and personal collections.</p>
+        <div class="service-card">
+          <div class="icon-box">
+            <i class="fa fa-video-camera"></i>
+          </div>
+          <h5>Video Recording & Highlights</h5>
+          <p>High-quality video coverage with professional highlight reels for weddings and events.</p>
         </div>
       </div>
     </div>
 
     <!-- Call to Action -->
-    <div class="text-center mt-4">
+    <div class="text-center mt-5">
       <p class="quote-line">✨ Love what you see? Let’s create something together.</p>
-      <a href="pricing.php" 
-         target="_blank" 
-         class="site-btn">See Packages</a>
+      <a href="pricing.php" target="_blank" class="site-btn orange-btn">
+        See Packages
+      </a>
     </div>
   </div>
 </section>
 
 <!-- ===== CSS Styling ===== -->
 <style>
-.services-section {
-  background: #fff;
-}
-.section-subtitle {
-  color: #ff6600;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-.section-title {
-  font-size: 28px;
-  font-weight: 700;
-  margin-top: 10px;
-  margin-bottom: 30px;
-  color: #222;
-}
-.service-box {
-  background: #fff;
-  padding: 25px;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-  transition: 0.3s;
-}
-.service-box:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
-}
-.service-box h5 {
-  font-size: 18px;
-  font-weight: 600;
-  margin-top: 15px;
-  margin-bottom: 10px;
-}
-.service-box p {
-  font-size: 14px;
-  color: #555;
-}
-.service-icon {
-  width: 50px;
-  height: 50px;
-}
-.quote-line {
-  font-size: 16px;
-  margin-bottom: 15px;
-  font-style: italic;
-  color: #444;
-}
+  .service-card {
+    background: #fff;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: 0.3s;
+    height: 100%;
+  }
+  .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+  }
+  .service-card h5 {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .service-card p {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+  }
+  .icon-box {
+    background: #fff5e6; /* soft beige/peach */
+    display: inline-block;
+    padding: 20px;
+    border-radius: 12px;
+    font-size: 28px;
+    color: #ff6600;
+  }
+
+  /* CTA Styling */
+  .quote-line {
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-style: italic;
+  }
+  .orange-btn {
+    background-color: #ff6600;
+    color: #fff !important;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.3s;
+    display: inline-block;
+  }
+  .orange-btn:hover {
+    background-color: #e65c00;
+    text-decoration: none;
+  }
 </style>
+
   
 
   <?php include 'footer.php'; ?>

@@ -43,8 +43,13 @@ include 'header.php';
 	  </div>
   
 	  <div class="text-center">
-		<a href="#contact" class="site-btn">Enquire Now</a>
-	  </div>
+  <a href="https://wa.me/60162118863?text=Hi%2C%20I'm%20[Your%20Name].%20I'm%20interested%20in%20your%20custom%20software%20solutions%20and%20would%20like%20to%20discuss%20how%20AVK%20Studio%20can%20help%20my%20business." 
+     target="_blank" 
+     class="site-btn">
+     Enquire Now
+  </a>
+</div>
+
 	</div>
   </section>
   
