@@ -1,0 +1,28 @@
+<?php
+header('Content-Type: application/xml; charset=utf-8');
+echo '<?xml version="1.0" encoding="UTF-8"?>' . PHP_EOL;
+$base = 'https://www.avkstudio.com';
+$pages = [
+  '/' => '1.0',
+  '/index.php' => '0.9',
+  '/pricing.php' => '0.8',
+  '/webbuild.php' => '0.8',
+  '/customsoftware.php' => '0.8',
+  '/album.php' => '0.7',
+];
+
+// If you have a list of album slugs, you can append them here programmatically.
+// Example: $albums = ['Abrielle-1st-Birthday','Thivesh-21st-birthday']; loop to add /album.php?album=slug
+
+$today = date('Y-m-d');
+
+echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . PHP_EOL;
+foreach ($pages as $path => $priority) {
+    $loc = rtrim($base, '/') . ($path === '/' ? '/' : $path);
+    echo "  <url>\n";
+    echo "    <loc>" . htmlspecialchars($loc, ENT_QUOTES) . "</loc>\n";
+    echo "    <lastmod>$today</lastmod>\n";
+    echo "    <priority>$priority</priority>\n";
+    echo "  </url>\n";
+}
+echo '</urlset>';
